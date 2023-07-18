@@ -37,7 +37,7 @@ export default function SearchEngine() {
 
   if (flag) {
     return (
-      <div className="SearchEngine container" id="input-city">
+      <div className="SearchEngine container">
         <form className="form-inline" onSubmit={searchWeather}>
           <div className="row">
             <div clasName="col">
@@ -46,14 +46,12 @@ export default function SearchEngine() {
                   type="text"
                   onChange={updateCity}
                   className="search form-control city-input-box"
-                  id="city-box"
                   placeholder="Enter a city"
                   autocomplete="on"
                 />
                 <button
                   className="btn btn-outline-secondary search search-btn"
                   type="submit"
-                  id="search-btn"
                 >
                   Search
                 </button>
@@ -106,7 +104,7 @@ export default function SearchEngine() {
   } else {
     return (
       <div className="SearchEngine container">
-        <form className="form-inline" id="input-city" onSubmit={searchWeather}>
+        <form className="form-inline" onSubmit={searchWeather}>
           <div className="row">
             <div clasName="col">
               <div className="input-group mb-3">
@@ -114,14 +112,12 @@ export default function SearchEngine() {
                   type="text"
                   onChange={updateCity}
                   className="search form-control city-input-box"
-                  id="city-box"
                   placeholder="Enter a city"
                   autocomplete="on"
                 />
                 <button
                   className="btn btn-outline-secondary search search-btn"
                   type="submit"
-                  id="search-btn"
                 >
                   Search
                 </button>

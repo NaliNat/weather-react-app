@@ -1,3 +1,7 @@
+body {
+  background: #cac5e0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -26,43 +30,33 @@
   cursor: pointer;
 }
 
-.App input.city-input-box {
+.App .city-input-box {
   height: 50px;
   border-color: #9092b4;
 }
 
-.App #input-city {
+.App .container {
   box-shadow: 0 30px 30px rgba(65, 50, 100, 0.16);
   margin: 60px auto 30px;
   max-width: 630px;
   padding: 40px 70px 40px;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  background: #eae8f5;
 }
 
-.App .search-btn:hover {
-  background: rgb(68, 58, 121);
-}
-
-button#search-btn {
+.search-btn {
   background: #5e63b6;
   color: white;
   border: #5e63b6;
   height: 50px;
 }
 
-input.city-input-box {
+.city-input-box {
   height: 50px;
   border-color: #9092b4;
-}
-
-.container {
-  font-family: "Poppins", sans-serif;
-  font-family: "Raleway", sans-serif;
-  width: 100%;
-  max-width: 700px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-right: auto;
 }
 
 .more-info {
@@ -80,36 +74,6 @@ input.city-input-box {
   margin-top: 10px;
   font-size: 50px;
   line-height: 60px;
-}
-
-.box-weather {
-  box-shadow: 0 30px 30px rgba(65, 50, 100, 0.16);
-  margin: 60px auto 30px;
-  max-width: 630px;
-  padding: 40px 70px 40px;
-  border-radius: 4px;
-}
-
-.forecast {
-  line-height: 50px;
-  padding-top: 50px;
-  text-align: center;
-  margin: 20px auto;
-}
-
-.day {
-  color: #a05b81;
-}
-
-.icon-forecast {
-  width: 99%;
-  filter: invert(45%) sepia(37%) saturate(5092%) hue-rotate(299deg)
-    brightness(88%) contrast(94%);
-}
-
-.temp {
-  color: #db409b;
-  font-weight: 500;
 }
 
 .coded-by {
@@ -135,13 +99,6 @@ input.city-input-box {
   text-transform: capitalize;
 }
 
-#current-btn {
-  background: #db409b;
-  height: 50px;
-  border: #db409b;
-  color: white;
-}
-
 #temperature {
   margin-left: 8px;
 }
@@ -150,13 +107,8 @@ input.city-input-box {
   opacity: 0.7;
 }
 
-button#search-btn:hover {
+.search-btn:hover {
   background: #a393eb;
   border: #a393eb;
-  color: white;
-}
-
-button#current-btn:hover {
-  background: #e085ba;
   color: white;
 }
