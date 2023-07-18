@@ -10,7 +10,7 @@ export default function Footer() {
       >
         Open-source code
       </a>
-      by Natalia Barrionuevo
+      , by Natalia Barrionuevo
     </div>
   );
 }
