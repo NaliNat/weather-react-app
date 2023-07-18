@@ -87,13 +87,9 @@ export default function SearchEngine() {
                 </h4>
 
                 <h3>
-                  <span className="max-temp" id="current-max-temp">
-                    {weather.temp_max}°
-                  </span>
+                  <span className="max-temp">{weather.temp_max}°</span>
 
-                  <span className="min-temp" id="current-min-temp">
-                    {weather.temp_min}°
-                  </span>
+                  <span className="min-temp">{weather.temp_min}°</span>
                 </h3>
               </div>
             </div>
